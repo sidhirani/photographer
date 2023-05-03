@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- boot link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- animated.css -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+    <button onclick="topfunction()" id="btn_2"><i class="fas fa-arrow-up px-1"></i></button>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(5, 24, 20, 0.9);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href=""><img src="/image/logo.png.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidhi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="sidhi">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                    <li class="nav-item dropdown" data-bs-toggle="dropdown">
+
+                </ul>
+                <ul class="d-flex hover justify-content-between text-light m-1 list-unstyled">
+                    <li>Home</li>
+                    <li>Page</li>
+                    <li>About us</li>
+                    <ul class="d-flex hover m-1 list-unstyled">
+                        <li class=" " data-bs-toggle="modal" data-bs-target="#exampleModal_1">Contact</li>
+                        <div class="modal fade" id="exampleModal_1">
+                            <div class="modal-dialog text-center">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-dark display-6" id="exampleModalLabel">Sign in for contact</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body"> 
+                                <!-- <input type="text">
+                                <span class="btn btn-danger">Submit</span> -->
+                                <p class="text-center text-dark fs-1"><i class="fa-solid fa-user"></i></p>
+                                <div class="form p-5 text-dark">
+                               <form action="" class="">
+                                <label for="">Username or email address</label><br>
+                                <input type="text"><br>
+                                <label for="">Password</label><br>
+                                <input type="password"><br>
+                                <button class="btn btn-success mt-3" type="submit">Sign in</button>
+                               </form>
+
+                                </div>
+                                
+
+                            
+                                </div>
+                                <!-- <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-danger">Save changes</button>
+                                </div> -->
+                              </div>
+                            </div>
+                          </div>
+                    </ul>
+                    <li>gallery</li>
+                    <li>Blogs</li>
+                </ul>
+                <ul class="d-flex m-1 list-unstyled">
+                    <li class="text-light"><i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></li>
+        
+  <!-- Modal on search bar -->
+  <div class="modal fade" id="exampleModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Search here</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+    
+        <input type="text">
+        <span class="btn btn-danger">Submit</span>
+        
+    
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" id="abc" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/image/car1.jpg" height="auto" width="100%" alt="">
+                <div class="carousel-caption top-50  d-none d-md-block">
+                    <h1 class=" linear1 fs-1 w-50 animate__animated  animate__bounceInDown">I am a Photographer</h1>
+                    <p class="animate__animated  animate__bounceInDown w-50">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
+                  <span><button class="btn rounded-pill border-3 text-light btn-outline-danger  mx-3 ">Get a quote</button>sidhirani1997@gmail.com</span>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/image/car2.jpg" height="auto" width="100%" alt="">
+                <div class="carousel-caption top-50 d-none d-md-block">
+                    <h1 class="linear1 fs-1 w-50 mt-1 animate__animated  animate__bounceInDown">Hello ,i am alime</h1>
+                    <p class="w-50 animate__animated  animate__bounceInDown">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
+                    <span><button class="btn rounded-pill border-3 text-light btn-outline-danger mx-3">Get a quote</button>sidhirani1997@gmail.com</span>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#abc" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#abc" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="gallery_section">
+    
+        <ul class="nav nav-tabs w-50 m-auto mt-5" style="border:none;">
+            <li class="nav-item">
+                <a class="nav-link" style="border:none; background:transparent; color: black;" data-bs-toggle="tab"
+                    data-bs-target="#abc_1">ALL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="border:none; background:transparent; color: black;" data-bs-toggle="tab"
+                    data-bs-target="#aaa">Human</a>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="border:none; background: transparent; color: black;" data-bs-toggle="tab"
+                    data-bs-target="#bbb">Nature</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="border:none; background: transparent; color: black;" data-bs-toggle="tab"
+                    data-bs-target="#bbb1">Country</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="border:none; background: transparent; color: black;" data-bs-toggle="tab"
+                    data-bs-target="#bbb2">Video</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="abc_1">
+                <div class="container1 mb-5 mt-3">
+                    <img src="/image/3.jpg" class="cls1 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/4.jpg" class="cls2 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/5.jpg" class="cls3 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/6.jpg" class="cls4 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/7.jpg" class="cls5 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/9.jpg" class="cls6 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/8.jpg" class="cls7 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/10.jpg" class="cls8 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/37.jpg" class="cls9 animate__animated animate__fadeInUp" alt="">
+                    <img src="image/5.jpg"  class="cls10 animate__animated animate__fadeInUp" alt="">
+                    <img src="/image/36.jpg" class="cls11 animate__animated animate__fadeInUp" alt="">
+                </div>
+            </div>
+            <div class="tab-pane fade  " id="aaa">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/4.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/10.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/11.jpg" height="auto" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade  " id="bbb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <img src="/image/12.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <img src="/image/13.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <img src="/image/14.jpg" height="auto" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade  " id="bbb1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/4.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/15.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/16.jpg" height="auto" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade  " id="bbb2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/36.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/37.jpg" height="auto" width="100%" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                            <img src="/image/4.jpg" height="auto" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="text-center w-100 p-5">
+        <button class="btn rounded-pill border-3 btn-outline-danger text-center m-auto"> View more</button>
+        <h1>Follow instagram</h1>
+        <p>@Alime_photographer</p>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="cont col-12 col-lg-2 col-md-4">
+                <img src="image/5.jpg" height="202px" class="image" width="100%" alt="">
+                <div class="middle">
+                    <div class="text">Photographer</div>
+                </div>
+            </div>
+            <div class="cont col-12 col-lg-2 col-md-4">
+                <img src="image/13.jpg" height="auto" width="100%" alt="">
+                <div class="middle">
+                    <div class="text">Photographer</div>
+                </div>
+            </div>
+            <div class="cont col-12 col-lg-2 col-md-4">
+                <img src="image/14.jpg" height="auto" width="100%" alt="">
+                <div class="middle">
+                    <div class="text">Photographer</div>
+                </div>
+            </div>
+            <div class="cont col-12 col-lg-2 col-md-4">
+                <img src="image/15.jpg" height="auto" width="100%" alt="">
+                <div class="middle">
+                    <div class="text">Photographer</div>
+                </div>
+            </div>
+            <div class="cont col-12 col-lg-2 col-md-4">
+                <img src="image/16.jpg" height="auto" width="100%" alt="">
+                <div class="middle">
+                    <div class="text">Photographer</div>
+                </div>
+            </div>
+            <div class="cont col-12 col-lg-2 col-md-4">
+                <img src="image/11.jpg" height="auto" width="100%" alt="">
+                <div class="middle">
+                    <div class="text">Photographer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+           <p>This templete made by sidhi</p>
+                     
+
+                        <div class="footer-logo">
+                            <a href="#"><img src="/image/logo2.png" alt=""></a>
+                        </div>
+
+                        <div class="social-info">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+         var button = document.getElementById("btn_2");
+         function scrollfun() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { button.style.display = "block"; }
+            else { button.style.display = "none"; }
+
+        }
+        window.onscroll = function () { scrollfun() };
+        function topfunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
